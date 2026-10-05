@@ -1,0 +1,14 @@
+.tools/
+dist/
+backend/venv/
+backend/.env
+backend/aigov.db
+backend/aigov_test.db
+backend/chroma_data/
+backend/uploads/
+backend/**/__pycache__/
+backend/.pytest_cache/
+frontend/node_modules/
+frontend/.next/
+frontend/.env.local
+*.pyc

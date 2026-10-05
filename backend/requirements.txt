@@ -1,0 +1,29 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+pydantic==2.9.2
+email-validator==2.3.0
+pydantic-settings==2.5.2
+sqlalchemy==2.0.35
+asyncpg==0.29.0
+aiosqlite>=0.20.0
+alembic==1.13.3
+psycopg2-binary==2.9.9
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.9
+langchain==0.3.4
+langchain-community==0.3.3
+langchain-openai==0.2.3
+# Windows: chroma-hnswlib==0.7.6 (pinned by chromadb) has no Windows wheel. If it fails to build, run:
+#   pip install chroma-hnswlib==0.7.5 && pip install chromadb==0.5.11 langchain-chroma==0.1.4 --no-deps
+langchain-chroma==0.1.4
+langgraph==0.2.34
+langsmith>=0.1.100,<0.2.0
+chromadb==0.5.11
+tiktoken==0.8.0
+pypdf==5.0.1
+docx2txt==0.8
+httpx==0.27.2
+python-dotenv==1.0.1
+mcp>=1.2.0,<2.0.0
+pytest>=8.0,<9

@@ -1,0 +1,28 @@
+{
+  "servers": {
+    "policy-repository": {
+      "type": "stdio",
+      "command": "${workspaceFolder}/backend/.venv/Scripts/python.exe",
+      "args": ["-m", "app.mcp.policy_repository_server"],
+      "cwd": "${workspaceFolder}/backend"
+    },
+    "compliance-tool": {
+      "type": "stdio",
+      "command": "${workspaceFolder}/backend/.venv/Scripts/python.exe",
+      "args": ["-m", "app.mcp.compliance_tool_server"],
+      "cwd": "${workspaceFolder}/backend"
+    },
+    "audit-system": {
+      "type": "stdio",
+      "command": "${workspaceFolder}/backend/.venv/Scripts/python.exe",
+      "args": ["-m", "app.mcp.audit_system_server"],
+      "cwd": "${workspaceFolder}/backend"
+    },
+    "document-management": {
+      "type": "stdio",
+      "command": "${workspaceFolder}/backend/.venv/Scripts/python.exe",
+      "args": ["-m", "app.mcp.document_management_server"],
+      "cwd": "${workspaceFolder}/backend"
+    }
+  }
+}
